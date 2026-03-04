@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="registform">
+        <p>
+            <label>Full Name: </label>
+            <br><input type="text" id="fullname">
+        </p>
+        <p>
+            <label>Date Of Birth: </label>
+            <br><input type="date" id="dob">
+        </p>
+        <p>
+            <label>Gender: </label>
+            <br><input type="radio" name="gender" value="Male"> Male
+            <br><input type="radio" name="gender" value="Female"> Female
+        </p>
+        <p>
+            <label>Religion: </label>
+            <br><select id="religion">
+                <option value="">Select Religion</option>
+                <option value="Islam">Islam</option>
+                <option value="Christianity">Christianity</option>  
+                <option value="Catholic">Catholic</option>
+            </select>
+        </p>
+        <p>
+            <label>How did you get information about SMK Telkom Malang?</label>
+            <br><input type="checkbox" class="info" value="brochure"> Brochure
+            <br><input type="checkbox" class="info" value="friends"> Friends
+            <br><input type="checkbox" class="info" value="newspaper"> Newspaper
+            <br><input type="checkbox" class="info" value="web"> Website
+            <br><input type="checkbox" class="info" value="banner"> Banner
+        </p>
+        <button type="submit">Submit</button>
+        <button type="cancel">Cancel</button>
+</body>
+</html>
